@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: yellow;}
+    20%  {background-color: blue;}
+    30% {background-color: rgb(31, 43, 31);}
+    40% {background-color: rgb(135, 141, 51);}
+    50% {background-color: rgb(238, 116, 116);}
+    60% {background-color: rgb(87, 230, 255);}
+    70% {background-color: rgba(255, 255, 255, 0.781);}
+    80% {background-color: rgb(70, 0, 128);}
+    90% {background-color: rgb(129, 129, 129);}
+    100% {background-color: green;}
+
+}
+.containar{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 24px;
+}
+.iconarea ul li a{
+    font-size: 100px;
+    background-color: aqua;
+    padding: 5px 10px;
+
+}
+.iconarea1 ul li a{
+    font-size: 100px;
+    background-color: rgb(247, 0, 255);
+    padding: 5px 6px;
+}
+.iconarea2 ul li a{
+    font-size: 100px;
+    background-color: rgb(187, 255, 0);
+    padding: 6px 5px;
+}
+.iconarea3 ul li a{
+    font-size: 100px;
+    background-color: rgb(236, 141, 31);
+    padding: 5px 0px;
+}
+.iconarea4 ul li a{
+    font-size: 100px;
+    background-color: rgb(255, 0, 0);
+    padding: 8px 5px;
+   
+}
+.iconarea ul li a:hover{
+    transform: scale(1.5);
+    background: transparent;
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+    transition: all 1s;
+}
+.iconarea1 ul li a:hover{
+    background: transparent;
+    color: rgb(8, 194, 39);
+    cursor: pointer;
+    transition: all 1s;
+}
+.iconarea2 ul li a:hover{
+    background: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 1s;
+}
+.iconarea3 ul li a:hover{
+    background: transparent;
+    color: rgb(8, 89, 194);
+    cursor: pointer;
+    transition: all 1s;
+}
+.iconarea4 ul li a:hover{
+    background: transparent;
+    color: rgb(194, 160, 8);
+    cursor: pointer;
+    transition: all 1s;
+}
+.containar ul li:hover{
+    transform: scale(1.1);
+    transition: all 1.5s;
+}
